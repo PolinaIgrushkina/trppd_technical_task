@@ -49,7 +49,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-right: 115px;
+  padding-right: 28px;
+
+  @include tablet {
+    padding-right: 28px;
+  }
+
+  @include desktop {
+    padding-right: 115px;
+  }
 }
 
 .header__userMenu-item {
@@ -129,12 +137,20 @@ a.current {
 }
 
 .hero__slider {
-  margin-right: 115px;
+  margin-right: 28px;
   display: flex;
   flex-direction: row;
   align-items: center;
 
   justify-content: end;
+
+  @include tablet {
+    margin-right: 28px;
+  }
+
+  @include desktop {
+    margin-right: 115px;
+  }
 }
 
 .prev-btn, .next-btn {

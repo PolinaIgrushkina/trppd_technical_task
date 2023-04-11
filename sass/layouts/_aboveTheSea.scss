@@ -1,16 +1,25 @@
 .aboveTheSea__container {
-  height: 650px;
+  height: 800px;
   width: 100%;
 
   display: flex;
   flex-direction: row;
   gap: 115px;
+
+  @include desktop {
+    height: 650px;
+  }
 }
 
 .aboveTheSea__image {
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   margin-top: 18px;
+
+  @include desktop {
+    width: 600px;
+    height: 600px;
+  }
 }
 
 .aboveTheSea__div {
@@ -46,5 +55,9 @@
   align-items: center;
 
   justify-content: end;
-  margin-right: 115px;
+  margin-right: 28px;
+
+  @include desktop {
+    margin-right: 115px;
+  }
 }

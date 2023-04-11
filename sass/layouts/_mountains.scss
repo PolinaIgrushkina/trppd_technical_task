@@ -1,12 +1,18 @@
 .mountains_section {
-  height: 1500px;
+  height: 2100px;
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(to right, rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url('../../images/night_desert.jpg');
 
   padding-top: 100px;
-  padding-left: 270px;
-  padding-right: 115px;
+  padding-left: 100px;
+  padding-right: 28px;
+
+  @include desktop {
+    height: 1500px;
+    padding-left: 270px;
+    padding-right: 115px;
+  }
 }
 
 .mountains_text {
