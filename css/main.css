@@ -266,14 +266,14 @@ a.current::after {
 .recommendation__container {
   width: 100%;
   height: 800px;
-  margin-bottom: 200px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: row;
 }
 
 .recommendation__leftPart {
   width: 389px;
-  padding-top: 130px;
+  padding-top: 100px;
   padding-left: 130px;
   padding-right: 110px;
   text-align: end;
@@ -304,7 +304,7 @@ a.current::after {
 }
 
 .recommendation__list {
-  padding-top: 225px;
+  padding-top: 200px;
   padding-right: 115px;
   display: flex;
   flex-direction: row;
@@ -337,6 +337,15 @@ a.current::after {
   text-decoration: underline;
 }
 
+.recommendation__slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin-right: 115px;
+  margin-bottom: 132px;
+}
+
 .aboveTheSea__container {
   height: 1000px;
   width: 100%;
@@ -358,4 +367,21 @@ a.current::after {
 
 .aboveTheSea__title {
   width: 220px;
+  margin-bottom: 60px;
+}
+
+.aboveTheSea__paragraph-first {
+  font-family: "EB Garamond";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+.aboveTheSea__paragraph-second {
+  margin-bottom: 30px;
+}
+
+.aboveTheSea__paragraph-third {
+  margin-bottom: 54px;
 }/*# sourceMappingURL=main.css.map */
