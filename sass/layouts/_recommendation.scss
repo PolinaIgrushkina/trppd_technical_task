@@ -29,10 +29,6 @@
 .recommendation__leftPart-title {
   margin-bottom: 25px;
   font-size: 24px;
-
-  @include tablet {
-    font-size: 48px;
-  }
 }
 
 .recommendation__leftPart-text {
@@ -106,6 +102,14 @@ padding-right: 5px;
 }
 
 .firstTitle {
+  font-size: 16px;
+
+  @include tablet {
+    font-size: 24px;
+  }
+}
+
+.secondTitle {
   font-size: 16px;
 
   @include tablet {

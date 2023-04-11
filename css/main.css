@@ -370,11 +370,6 @@ a.current::after {
   margin-bottom: 25px;
   font-size: 24px;
 }
-@media screen and (min-width: 768px) {
-  .recommendation__leftPart-title {
-    font-size: 48px;
-  }
-}
 
 .recommendation__leftPart-text {
   margin-bottom: 125px;
@@ -453,6 +448,15 @@ a.current::after {
 }
 @media screen and (min-width: 768px) {
   .firstTitle {
+    font-size: 24px;
+  }
+}
+
+.secondTitle {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .secondTitle {
     font-size: 24px;
   }
 }
@@ -623,7 +627,7 @@ a.current::after {
 }
 @media screen and (min-width: 1200px) {
   .explore__leftPart {
-    padding-top: 0px;
+    padding-top: 30px;
     padding-right: 115px;
   }
 }
