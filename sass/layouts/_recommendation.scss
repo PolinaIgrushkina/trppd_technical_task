@@ -12,16 +12,27 @@
 }
 
 .recommendation__leftPart {
-  width: 389px;
+  width: 250px;
   padding-top: 100px;
-  padding-left: 30px;
-  padding-right: 40px;
+  padding-left: 10px;
+  padding-right: 28px;
 
   text-align: end;
+
+  @include tablet {
+    width: 389px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
 }
 
 .recommendation__leftPart-title {
-margin-bottom: 25px;
+  margin-bottom: 25px;
+  font-size: 24px;
+
+  @include tablet {
+    font-size: 48px;
+  }
 }
 
 .recommendation__leftPart-text {
@@ -48,7 +59,7 @@ margin-bottom: 25px;
 }
 
 .recommendation__list {
-padding-top: 120px;
+padding-top: 70px;
 padding-right: 5px;
 
  display: flex;
@@ -56,7 +67,8 @@ padding-right: 5px;
  gap: 20px;
 
   @include tablet {
-  gap: 20px;
+    padding-top: 120px;
+    gap: 20px;
   }
 
   @include desktop {
@@ -66,7 +78,7 @@ padding-right: 5px;
 }
 
 .recommendation__item {
-  max-width: 150px;
+  width: 100px;
 
   @include tablet {
     width: 150px;
@@ -78,10 +90,9 @@ padding-right: 5px;
 }
 
 .recommendation__image {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 44px;
-  margin-right: 0;
 
   @include tablet {
     width: 150px;
@@ -91,6 +102,14 @@ padding-right: 5px;
   @include desktop {
     width: 270px;
     height: 270px;
+  }
+}
+
+.firstTitle {
+  font-size: 16px;
+
+  @include tablet {
+    font-size: 24px;
   }
 }
 
@@ -118,11 +137,12 @@ padding-right: 5px;
   align-items: center;
   justify-content: center;
   margin-right: 0px;
-  margin-bottom: 132px;
+  margin-bottom: 70px;
 
   @include tablet {
     justify-content: center;
     margin-right: 0px;
+    margin-bottom: 132px;
   }
 
   @include desktop {
