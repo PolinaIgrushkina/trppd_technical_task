@@ -1,7 +1,7 @@
 const imagesArray3 = [
-  "../images/lake_louise.jpg",
-  "../images/lake_louise2.jpg",
-  "../images/lake_louise3.jpg",
+  "images/lake_louise.jpg",
+  "images/lake_louise2.jpg",
+  "images/lake_louise3.jpg",
 ];
 let currentSlide3 = 0;
 const imageElement3 = document.querySelector(".third_image");

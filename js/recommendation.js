@@ -1,7 +1,7 @@
 const imagesArray = [
-  "../images/ollantaytambo.jpg",
-  "../images/ollantaytambo2.jpg",
-  "../images/ollantaytambo3.jpg",
+  "images/ollantaytambo.jpg",
+  "images/ollantaytambo2.jpg",
+  "images/ollantaytambo3.jpg",
 ];
 let currentSlide = 0;
 const imageElement = document.querySelector(".first_image");
