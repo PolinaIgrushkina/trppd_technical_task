@@ -213,7 +213,7 @@ a.current::after {
 
 .hero__container {
   margin-top: 200px;
-  margin-left: 115px;
+  margin-left: 100px;
 }
 
 .hero__main {
@@ -225,12 +225,11 @@ a.current::after {
 }
 
 .hero__slider {
-  margin-top: 140px;
+  margin-right: 115px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: end;
-  margin-right: 115px;
 }
 
 .prev-btn, .next-btn {
@@ -290,8 +289,8 @@ a.current::after {
 .recommendation__leftPart {
   width: 389px;
   padding-top: 100px;
-  padding-left: 130px;
-  padding-right: 110px;
+  padding-left: 30px;
+  padding-right: 40px;
   text-align: end;
 }
 
@@ -321,7 +320,7 @@ a.current::after {
 
 .recommendation__list {
   padding-top: 200px;
-  padding-right: 115px;
+  padding-right: 5px;
   display: flex;
   flex-direction: row;
   gap: 56px;
@@ -400,6 +399,15 @@ a.current::after {
 
 .aboveTheSea__paragraph-third {
   margin-bottom: 30px;
+}
+
+.aboveTheSea__slider {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin-right: 115px;
 }
 
 .explore__container {

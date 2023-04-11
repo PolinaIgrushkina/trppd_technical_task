@@ -116,7 +116,7 @@ a.current {
 
 .hero__container {
   margin-top: 200px;
-  margin-left: 115px;
+  margin-left: 100px;
 }
 
 .hero__main {
@@ -129,13 +129,12 @@ a.current {
 }
 
 .hero__slider {
-  margin-top: 140px;
+  margin-right: 115px;
   display: flex;
   flex-direction: row;
   align-items: center;
 
   justify-content: end;
-  margin-right: 115px;
 }
 
 .prev-btn, .next-btn {
