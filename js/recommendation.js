@@ -1,18 +1,16 @@
-const slideList = document.querySelectorAll(".recommendation__image");
-const slidenumber = document.querySelector(".slidenumber");
+const imagesArray = [
+  "../images/ollantaytambo.jpg",
+  "../images/ollantaytambo2.jpg",
+  "../images/ollantaytambo3.jpg",
+];
 let currentSlide = 0;
+const imageElement = document.querySelector(".first_image");
+const slideNumberElement = document.querySelector(".slidenumber");
 
-function showSlide(slideIndex) {
-  slideList.forEach((slide) => {
-    slide.style.display = "none";
-  });
-  slideList[slideIndex].style.display = "block";
-  slidenumber.textContent = `${slideIndex + 1} / ${slideList.length}`;
+function showNextSlide() {
+  currentSlide = (currentSlide + 1) % imagesArray.length;
+  imageElement.src = imagesArray[currentSlide];
+  slideNumberElement.textContent = `${currentSlide + 1}/${imagesArray.length}`;
 }
 
-function nextSlide() {
-  currentSlide = (currentSlide + 1) % slideList.length;
-  showSlide(currentSlide);
-}
-
-setInterval(nextSlide, 3000);
+setInterval(showNextSlide, 10000);
