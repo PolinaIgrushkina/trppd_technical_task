@@ -284,17 +284,25 @@ a.current::after {
   }
 }
 
-.prev-btn, .next-btn {
-  position: relative;
+.prev-btn svg,
+.next-btn svg {
+  display: block;
+  margin: auto;
+}
+
+.prev-btn,
+.next-btn {
   width: 35px;
   height: 35px;
   margin-right: 12px;
   background-color: var(--primary-text-color);
   border-radius: 50%;
-  text-align: center;
+  align-items: center;
   justify-content: center;
 }
-.prev-btn:hover, .prev-btn:focus, .next-btn:hover, .next-btn:focus {
+.prev-btn:hover, .prev-btn:focus,
+.next-btn:hover,
+.next-btn:focus {
   background-color: var(--primary-text-color);
   border: transparent;
 }
@@ -564,17 +572,25 @@ a.current::after {
   }
 }
 
-.prev-button, .next-button {
-  position: relative;
+.prev-button svg,
+.next-button svg {
+  display: block;
+  margin: auto;
+}
+
+.prev-button,
+.next-button {
   width: 35px;
   height: 35px;
   margin-right: 12px;
   background-color: var(--primary-text-color);
   border-radius: 50%;
-  text-align: center;
+  align-items: center;
   justify-content: center;
 }
-.prev-button:hover, .prev-button:focus, .next-button:hover, .next-button:focus {
+.prev-button:hover, .prev-button:focus,
+.next-button:hover,
+.next-button:focus {
   background-color: var(--primary-text-color);
   border: transparent;
 }

@@ -72,15 +72,20 @@
   }
 }
 
-.prev-button, .next-button {
-  position: relative;
+.prev-button svg,
+.next-button svg {
+  display: block;
+  margin: auto;
+}
+
+.prev-button,
+.next-button {
   width: 35px;
   height: 35px;
   margin-right: 12px;
-  
   background-color: var(--primary-text-color);
   border-radius: 50%;
-  text-align: center;
+  align-items: center;
   justify-content: center;
 
   &:hover,
