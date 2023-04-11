@@ -7,9 +7,9 @@ const sliderNumber = document.querySelector(".slider-number");
 
 // создаем массив из путей к картинкам
 const images = [
-  "../images/above_the_sea.jpg",
-  "../images/above_the_sea2.jpg",
-  "../images/above_the_sea3.jpg",
+  "images/above_the_sea.jpg",
+  "images/above_the_sea2.jpg",
+  "images/above_the_sea3.jpg",
 ];
 let currentImage = 0;
 
