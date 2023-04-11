@@ -1,0 +1,37 @@
+.mountains_section {
+  height: 1500px;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to right, rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url('../../images/night_desert.jpg');
+
+  padding-top: 100px;
+  padding-left: 270px;
+  padding-right: 115px;
+}
+
+.mountains_text {
+  display: block;
+  width: 365px;
+  margin-bottom: 55px;
+}
+
+.mountains_item {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid var(--secondary-text-color);
+}
+
+.mountains_information {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 600px;
+  margin-right: 180px;
+}
+
+.mountains_image {
+  width: 270px;
+  height: 270px;
+}

@@ -1,0 +1,40 @@
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 90px;
+  background-color: var(--accent-color);
+
+  padding-left: 55px;
+  padding-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.footer__logo {
+  font-weight: 700;
+  font-size: 34px;
+  color: var(--black-color);
+}
+
+.footer__copyright {
+  font-weight: 500;
+  color: var(--black-color);
+}
+
+.footer__socialLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.footer__socialLink {
+  fill: var(--black-color);
+
+  &:hover, &:focus {
+    background-color: var(--black-color);
+    fill: var(--accent-color);
+  }
+}
