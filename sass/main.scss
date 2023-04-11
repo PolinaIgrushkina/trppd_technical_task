@@ -1,0 +1,10 @@
+@import './base/common';
+@import './base/reset';
+
+@import "./utils/vars";
+@import "./utils/mixins";
+
+@import "./layouts/hero-header";
+@import './layouts/recommendation';
+@import './layouts/aboveTheSea';
+@import "./layouts/footer";
