@@ -1,0 +1,58 @@
+.explore__container {
+  width: 100%;
+  height: 1000px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.explore__leftPart {
+  width: 389px;
+  padding-left: 60px;
+  padding-right: 115px;
+
+  text-align: end;
+}
+
+.explore__leftPart-title {
+  margin-bottom: 25px;
+}
+
+.explore__gallery {
+  padding-top: 65px;
+}
+
+.explore__gallery-upper {
+  display: flex;
+  flex-direction: row;
+  gap: 58px;
+  margin-bottom: 60px;
+}
+
+.explore__gallery-right {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.flatyron {
+  width: 600px;
+  height: 600px;
+}
+
+.bridge, .japan, .canyon {
+  width: 270px;
+  height: 270px;
+}
+
+.explore__gallery-down {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-bottom: 115px;
+}
+
+.snow {
+  width: 600px;
+  height: 270px;
+}

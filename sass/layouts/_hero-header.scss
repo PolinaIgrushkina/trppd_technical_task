@@ -133,6 +133,9 @@ a.current {
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  justify-content: end;
+  margin-right: 115px;
 }
 
 .prev-btn, .next-btn {
@@ -174,4 +177,12 @@ justify-content: center;
     background: var(--secondary-text-color);
     width: 30px;
     height: 2px;
+}
+
+.sortBy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
