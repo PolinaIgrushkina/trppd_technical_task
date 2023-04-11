@@ -71,3 +71,21 @@
     margin-right: 115px;
   }
 }
+
+.prev-button, .next-button {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+  
+  background-color: var(--primary-text-color);
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-text-color);
+    border: transparent;
+  }
+}
